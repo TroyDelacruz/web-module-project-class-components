@@ -68,6 +68,7 @@ export default class App extends React.Component {
       <h1>Todos</h1>
 
       <TodoList handleToggle={this.handleToggle} todos={todos} />
+      
       <Form handleAdd={this.handleAdd} />
       
       <button onClick={this.handleClear}>Clear</button>
